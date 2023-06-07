@@ -81,4 +81,4 @@ class Generator(nn.Module):
 
 
 netG = Generator().to(device)
-netG.load_state_dict(torch.load('models/G.pth'))
+netG.load_state_dict(torch.load('gan_models/G.pth'))
